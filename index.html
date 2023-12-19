@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Juros Compostos</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Juros Compostos</h2>
+        <div class="input-group">
+            <div class="input-box">
+                <label for="quantidade">Valor Investido:</label>
+                <input type="number" id="quantidade" step="0.01">
+            </div>
+            <div class="input-box">
+                <label for="tempo">Tempo Investido mensal:</label>
+                <input type="number" id="tempo" step="0.01">
+            </div>
+            <div class="input-box">
+                <label for="taxa">Taxa de Juros mensal:</label>
+                <input type="number" id="taxa" step="0.01">
+            </div>
+        </div>
+        <div class="resulte-group">
+            <span class="title-result">Resultado:</span>
+            <span id="resulte">00</span>
+        </div>
+        <button id="calculate">Calcular</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
